@@ -1,0 +1,32 @@
+@media screen and (max-width: 639px)
+{
+	#logo, #maintext
+	{
+		width: 100% !important;
+	}
+}
+
+body {
+	background: initial !important;
+}
+body .container
+ {
+	background-color: rgba(255,255,255,0.85) !important;
+}
+
+html { 
+  background: url('/img/bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+table tr td, table tr th {
+	background-color: #FFF;
+}
+
+#news > div:not(:first-child)
+{
+	border-top: 2px dashed #AAA;
+}
